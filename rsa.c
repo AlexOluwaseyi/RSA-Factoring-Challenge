@@ -103,7 +103,7 @@ int main(int argc, char *argv[])
 
 	/* qsort(result, size, sizeof(int), compare); */
 
-	printf("%ld=%d*%d\n", number, result[0], result[1]);
+	printf("%ld=%d*%d\n", number, result[1], result[0]);
 
 	/* Free the dynamically allocated memory */
 	free(result);
